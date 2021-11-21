@@ -30,4 +30,5 @@ products.map(async (url) => {
     while (DATA.prices.length > 1000) DATA.prices.shift(); // Keep only 1000 prices
     fs.writeFileSync(file, JSON.stringify(DATA, null, 2));
 
+    console.log(`${url} - ${_data.price}`);
 });
