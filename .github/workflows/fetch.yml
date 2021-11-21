@@ -3,7 +3,7 @@
 name: Fetch Prices
 on:
   schedule:
-    -cron:  '0 * * * *' # Every Hour
+    - cron:  '0 * * * *' # Every Hour
 
 # Parallel / Sequential Jobs
 jobs: 
