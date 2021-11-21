@@ -23,6 +23,7 @@ products.map(async (url) => {
 
     // Store data in file
     const DATA = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
+    DATA.url = url;
     DATA.title = _data.title;
     DATA.prices = DATA.prices || [];
     DATA.prices.push({ date: Date.now(), price: _data.price });

@@ -1,0 +1,38 @@
+# CRON FETCH
+
+name: Fetch Prices
+on:
+  schedule:
+    -cron:  '0 * * * *' # Every Hour
+
+# Parallel / Sequential Jobs
+jobs: 
+
+  #JOB 1
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1
+      - name: Pull Repository
+      - uses: actions/checkout@v2
+      # Step 2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.2
+      # Step 3
+      - name: Install Dependencies
+        run: |
+          npm install
+          npm audit fix
+      # Step 4
+      - name: Run Fetch (fetch.js)
+        run: |
+          node fetch.js
+      # Step 5
+      - name: Push Repository
+        run: |
+          git config --global user.name '${{ github.actor }}'
+          git config --global user.email '${{ github.actor }}@users.noreply.github.com'
+          git add -A
+          git commit -am "Fetch New Data"
+          git push

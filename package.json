@@ -2,10 +2,9 @@
   "name": "price-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "fetch": "node fetch.js"
   },
   "keywords": [],
   "author": "Soumya Kanti Sar",
