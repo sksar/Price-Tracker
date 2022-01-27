@@ -3,10 +3,6 @@
   "title": "2021 Apple iMac with 4.5K Retina Display (24-inch/60.96 cm, Apple M1 chip with 8‑core CPU and 8‑core GPU, 8GB RAM, 256GB) - Blue",
   "prices": [
     {
-      "date": 1639571340921,
-      "price": ""
-    },
-    {
       "date": 1639574630805,
       "price": "₹1,39,900.00"
     },
@@ -4000,6 +3996,10 @@
     },
     {
       "date": 1643318088834,
+      "price": ""
+    },
+    {
+      "date": 1643321768617,
       "price": ""
     }
   ]
