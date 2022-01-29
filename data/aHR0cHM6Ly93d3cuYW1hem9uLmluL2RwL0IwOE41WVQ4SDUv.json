@@ -3,10 +3,6 @@
   "title": "2020 Apple Mac Mini (3.0GHz 6-core 8th-Generation Intel Core i5 Processor, 8GB RAM, 512GB) - Space Grey",
   "prices": [
     {
-      "date": 1639715034229,
-      "price": ""
-    },
-    {
       "date": 1639718185290,
       "price": "₹75,990.00"
     },
@@ -4000,6 +3996,10 @@
     },
     {
       "date": 1643459165531,
+      "price": ""
+    },
+    {
+      "date": 1643462251308,
       "price": ""
     }
   ]
