@@ -3,10 +3,6 @@
   "title": "2020 Apple Mac Mini (Apple M1 chip with 8‑core CPU and 8‑core GPU, 8GB RAM, 512GB SSD) -Silver",
   "prices": [
     {
-      "date": 1643876419350,
-      "price": ""
-    },
-    {
       "date": 1643879793753,
       "price": ""
     },
@@ -4000,6 +3996,10 @@
     },
     {
       "date": 1647616734396,
+      "price": ""
+    },
+    {
+      "date": 1647620791607,
       "price": ""
     }
   ]
