@@ -3,10 +3,6 @@
   "title": "2020 Apple Mac Mini (3.0GHz 6-core 8th-Generation Intel Core i5 Processor, 8GB RAM, 512GB) - Space Grey",
   "prices": [
     {
-      "date": 1650403031087,
-      "price": ""
-    },
-    {
       "date": 1650406855264,
       "price": ""
     },
@@ -4000,6 +3996,10 @@
     },
     {
       "date": 1654334255782,
+      "price": ""
+    },
+    {
+      "date": 1654337926554,
       "price": ""
     }
   ]
